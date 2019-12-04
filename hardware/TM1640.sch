@@ -1,0 +1,400 @@
+EESchema Schematic File Version 4
+LIBS:plan_b-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title "Dynamic Xmas Gift Label"
+Date "2019-12-04"
+Rev "rev0"
+Comp "Jordan Waeles"
+Comment1 "https://github.com/jwaeles/"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L JordanLib:TM1640 U?
+U 1 1 5EC6D1EF
+P 6250 4150
+AR Path="/5EC6D1EF" Ref="U?"  Part="1" 
+AR Path="/5EC673BB/5EC6D1EF" Ref="U2"  Part="1" 
+F 0 "U2" H 6250 4350 50  0000 C CNN
+F 1 "TM1640" H 6250 4200 50  0000 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 5700 4550 50  0001 C CNN
+F 3 "" H 5700 4550 50  0001 C CNN
+	1    6250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EC6D1F5
+P 4150 3200
+AR Path="/5EC6D1F5" Ref="C?"  Part="1" 
+AR Path="/5EC673BB/5EC6D1F5" Ref="C3"  Part="1" 
+F 0 "C3" H 4265 3246 50  0000 L CNN
+F 1 "100nF" H 4265 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 3050 50  0001 C CNN
+F 3 "~" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3200 9750 3200
+Wire Wire Line
+	9250 3300 9750 3300
+Wire Wire Line
+	9250 3400 9750 3400
+Wire Wire Line
+	9250 3500 9750 3500
+Wire Wire Line
+	9250 3600 9750 3600
+Wire Wire Line
+	9250 3700 9750 3700
+Wire Wire Line
+	9250 3800 9750 3800
+Wire Wire Line
+	9250 3900 9750 3900
+Wire Wire Line
+	9250 4000 9750 4000
+Wire Wire Line
+	9250 4100 9750 4100
+Wire Wire Line
+	9250 4200 9750 4200
+Wire Wire Line
+	9250 4300 9750 4300
+Wire Wire Line
+	9250 4400 9750 4400
+Wire Wire Line
+	9250 4500 9750 4500
+Wire Wire Line
+	9250 4600 9750 4600
+Wire Wire Line
+	9250 4700 9750 4700
+Wire Wire Line
+	7950 3200 8450 3200
+Wire Wire Line
+	7950 3300 8450 3300
+Wire Wire Line
+	7950 3400 8450 3400
+Wire Wire Line
+	7950 3500 8450 3500
+Wire Wire Line
+	7950 3600 8450 3600
+Wire Wire Line
+	7950 3700 8450 3700
+Wire Wire Line
+	7950 3800 8450 3800
+Text Label 9550 3200 0    50   ~ 0
+GRID1
+Text Label 9550 3300 0    50   ~ 0
+GRID2
+Text Label 9550 3400 0    50   ~ 0
+GRID3
+Text Label 9550 3500 0    50   ~ 0
+GRID4
+Text Label 9550 3600 0    50   ~ 0
+GRID5
+Text Label 9550 3700 0    50   ~ 0
+GRID6
+Text Label 9550 3800 0    50   ~ 0
+GRID7
+Text Label 9550 3900 0    50   ~ 0
+GRID8
+Text Label 9550 4000 0    50   ~ 0
+GRID9
+Text Label 9550 4100 0    50   ~ 0
+GRID10
+Text Label 9550 4200 0    50   ~ 0
+GRID11
+Text Label 9550 4300 0    50   ~ 0
+GRID12
+Text Label 9550 4400 0    50   ~ 0
+GRID13
+Text Label 9550 4500 0    50   ~ 0
+GRID14
+Text Label 9550 4600 0    50   ~ 0
+GRID15
+Text Label 9550 4700 0    50   ~ 0
+GRID16
+Wire Wire Line
+	6900 3400 7400 3400
+Wire Wire Line
+	6900 3600 7400 3600
+Wire Wire Line
+	6900 3800 7400 3800
+Wire Wire Line
+	6900 4000 7400 4000
+Wire Wire Line
+	6900 4200 7400 4200
+Wire Wire Line
+	6900 4400 7400 4400
+Wire Wire Line
+	6900 4600 7400 4600
+Wire Wire Line
+	6900 4800 7400 4800
+Wire Wire Line
+	6900 3500 7400 3500
+Wire Wire Line
+	6900 3700 7400 3700
+Wire Wire Line
+	6900 3900 7400 3900
+Wire Wire Line
+	6900 4100 7400 4100
+Wire Wire Line
+	6900 4300 7400 4300
+Wire Wire Line
+	6900 4500 7400 4500
+Wire Wire Line
+	6900 4700 7400 4700
+Wire Wire Line
+	6900 4900 7400 4900
+Wire Wire Line
+	5100 4200 5600 4200
+Wire Wire Line
+	5100 4400 5600 4400
+Wire Wire Line
+	5100 4600 5600 4600
+Wire Wire Line
+	5100 4800 5600 4800
+Wire Wire Line
+	5100 4300 5600 4300
+Wire Wire Line
+	5100 4500 5600 4500
+Wire Wire Line
+	5100 4700 5600 4700
+Wire Wire Line
+	5100 3750 5600 3750
+Wire Wire Line
+	5100 3850 5600 3850
+Text Label 5100 4200 0    50   ~ 0
+SEG1
+Text Label 5100 4300 0    50   ~ 0
+SEG2
+Text Label 5100 4400 0    50   ~ 0
+SEG3
+Text Label 5100 4500 0    50   ~ 0
+SEG4
+Text Label 5100 4600 0    50   ~ 0
+SEG5
+Text Label 5100 4700 0    50   ~ 0
+SEG6
+Text Label 5100 4800 0    50   ~ 0
+SEG7
+Text Label 7050 3400 0    50   ~ 0
+GRID16
+Text Label 7050 3500 0    50   ~ 0
+GRID15
+Text Label 7050 3600 0    50   ~ 0
+GRID14
+Text Label 7050 3700 0    50   ~ 0
+GRID13
+Text Label 7050 3800 0    50   ~ 0
+GRID12
+Text Label 7050 3900 0    50   ~ 0
+GRID11
+Text Label 7050 4000 0    50   ~ 0
+GRID10
+Text Label 7050 4100 0    50   ~ 0
+GRID9
+Text Label 7050 4200 0    50   ~ 0
+GRID8
+Text Label 7050 4300 0    50   ~ 0
+GRID7
+Text Label 7050 4400 0    50   ~ 0
+GRID6
+Text Label 7050 4500 0    50   ~ 0
+GRID5
+Text Label 7050 4600 0    50   ~ 0
+GRID4
+Text Label 7050 4700 0    50   ~ 0
+GRID3
+Text Label 7050 4800 0    50   ~ 0
+GRID2
+Text Label 7050 4900 0    50   ~ 0
+GRID1
+Text Label 7950 3200 0    50   ~ 0
+SEG1
+Text Label 7950 3300 0    50   ~ 0
+SEG2
+Text Label 7950 3400 0    50   ~ 0
+SEG3
+Text Label 7950 3500 0    50   ~ 0
+SEG4
+Text Label 7950 3600 0    50   ~ 0
+SEG5
+Text Label 7950 3700 0    50   ~ 0
+SEG6
+Text Label 7950 3800 0    50   ~ 0
+SEG7
+NoConn ~ 5600 4900
+Text Label 5100 3750 0    50   ~ 0
+DIN
+Text Label 5100 3850 0    50   ~ 0
+SCLK
+Wire Wire Line
+	6250 5100 6250 5200
+Text HLabel 5100 3750 0    50   Input ~ 0
+DIN
+Text HLabel 5100 3850 0    50   Input ~ 0
+SCLK
+Text HLabel 6250 5200 0    50   UnSpc ~ 0
+GND
+$Comp
+L Device:R R?
+U 1 1 5EC7C6F3
+P 3650 2250
+AR Path="/5EC7C6F3" Ref="R?"  Part="1" 
+AR Path="/5EC673BB/5EC7C6F3" Ref="R5"  Part="1" 
+F 0 "R5" H 3720 2296 50  0000 L CNN
+F 1 "10K" H 3720 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 2250 50  0001 C CNN
+F 3 "~" H 3650 2250 50  0001 C CNN
+	1    3650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5EC7C6ED
+P 4050 2500
+AR Path="/5EC7C6ED" Ref="Q?"  Part="1" 
+AR Path="/5EC673BB/5EC7C6ED" Ref="Q3"  Part="1" 
+F 0 "Q3" H 4256 2454 50  0000 L CNN
+F 1 "Si2301CDS" H 4256 2545 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 2600 50  0001 C CNN
+F 3 "~" H 4050 2500 50  0001 C CNN
+	1    4050 2500
+	1    0    0    1   
+$EndComp
+Text HLabel 2800 2000 0    50   UnSpc ~ 0
+VBATT
+Wire Wire Line
+	3650 2100 3650 2000
+Connection ~ 3650 2000
+Wire Wire Line
+	3650 2000 2800 2000
+Wire Wire Line
+	3650 2500 3650 2400
+Text HLabel 2800 3700 0    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	4150 2000 4150 2300
+Wire Wire Line
+	3650 2000 4150 2000
+Wire Wire Line
+	3850 2500 3650 2500
+Wire Wire Line
+	4150 2800 4150 2700
+Wire Wire Line
+	2800 3700 3300 3700
+$Comp
+L Device:R R3
+U 1 1 5ECCC227
+P 3100 2900
+F 0 "R3" V 2893 2900 50  0000 C CNN
+F 1 "1K" V 2984 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 2900 50  0001 C CNN
+F 3 "~" H 3100 2900 50  0001 C CNN
+	1    3100 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 2900 2800 2900
+Wire Wire Line
+	3250 2900 3300 2900
+Wire Wire Line
+	3650 2500 3650 2700
+Connection ~ 3650 2500
+Wire Wire Line
+	3650 3100 3650 3700
+Connection ~ 3650 3700
+Text HLabel 2800 2900 0    50   Input ~ 0
+ENABLE
+$Comp
+L Device:R R?
+U 1 1 5ECD590D
+P 3300 3350
+AR Path="/5ECD590D" Ref="R?"  Part="1" 
+AR Path="/5EC673BB/5ECD590D" Ref="R4"  Part="1" 
+F 0 "R4" H 3370 3396 50  0000 L CNN
+F 1 "100K" H 3370 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3230 3350 50  0001 C CNN
+F 3 "~" H 3300 3350 50  0001 C CNN
+	1    3300 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3200 3300 2900
+Connection ~ 3300 2900
+Wire Wire Line
+	3300 2900 3350 2900
+Wire Wire Line
+	3300 3500 3300 3700
+Connection ~ 3300 3700
+Wire Wire Line
+	3300 3700 3650 3700
+Wire Wire Line
+	3650 3700 4150 3700
+Wire Wire Line
+	4150 3350 4150 3700
+Wire Wire Line
+	4150 2800 4150 3050
+Connection ~ 4150 2800
+Wire Wire Line
+	6250 2800 6250 3200
+Wire Wire Line
+	4150 2800 6250 2800
+$Sheet
+S 8450 2900 800  2100
+U 5EC6D20E
+F0 "LedMatrix7x16" 50
+F1 "LedMatrix7x16.sch" 50
+F2 "AROW1" U L 8450 3200 50 
+F3 "AROW2" U L 8450 3300 50 
+F4 "AROW3" U L 8450 3400 50 
+F5 "AROW4" U L 8450 3500 50 
+F6 "AROW5" U L 8450 3600 50 
+F7 "AROW6" U L 8450 3700 50 
+F8 "AROW7" U L 8450 3800 50 
+F9 "KCOL1" U R 9250 3200 50 
+F10 "KCOL2" U R 9250 3300 50 
+F11 "KCOL3" U R 9250 3400 50 
+F12 "KCOL4" U R 9250 3500 50 
+F13 "KCOL5" U R 9250 3600 50 
+F14 "KCOL6" U R 9250 3700 50 
+F15 "KCOL7" U R 9250 3800 50 
+F16 "KCOL8" U R 9250 3900 50 
+F17 "KCOL9" U R 9250 4000 50 
+F18 "KCOL10" U R 9250 4100 50 
+F19 "KCOL11" U R 9250 4200 50 
+F20 "KCOL12" U R 9250 4300 50 
+F21 "KCOL13" U R 9250 4400 50 
+F22 "KCOL14" U R 9250 4500 50 
+F23 "KCOL15" U R 9250 4600 50 
+F24 "KCOL16" U R 9250 4700 50 
+$EndSheet
+$Comp
+L Device:Q_NPN_BEC Q2
+U 1 1 5EE53EC8
+P 3550 2900
+F 0 "Q2" H 3740 2946 50  0000 L CNN
+F 1 "S8050" H 3740 2855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3750 3000 50  0001 C CNN
+F 3 "~" H 3550 2900 50  0001 C CNN
+	1    3550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5FD7A4B4
+P 6250 2800
+F 0 "#FLG0103" H 6250 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 6250 2973 50  0000 C CNN
+F 2 "" H 6250 2800 50  0001 C CNN
+F 3 "~" H 6250 2800 50  0001 C CNN
+	1    6250 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 2800
+$EndSCHEMATC
