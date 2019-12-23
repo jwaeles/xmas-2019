@@ -397,4 +397,12 @@ F 3 "~" H 6250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6250 2800
+Text Notes 5500 1500 0    118  ~ 24
+LED matrix module
+Text Notes 2800 1800 0    118  ~ 24
+power switching
+Text Notes 5600 2500 0    118  ~ 24
+LED driver
+Text Notes 8400 2600 0    118  ~ 24
+LED matrix
 $EndSCHEMATC

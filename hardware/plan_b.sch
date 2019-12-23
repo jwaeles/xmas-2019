@@ -158,39 +158,9 @@ Wire Wire Line
 $Comp
 L Jumper:SolderJumper_2_Open JP1
 U 1 1 5EBC90CA
-P 8575 4900
-F 0 "JP1" H 8375 4950 50  0000 C CNN
-F 1 "1" H 8675 4950 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8575 4900 50  0001 C CNN
-F 3 "~" H 8575 4900 50  0001 C CNN
-	1    8575 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8425 4900 7825 4900
-Wire Wire Line
-	8725 4900 8875 4900
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 5EBFAB1C
-P 8575 5100
-F 0 "JP2" H 8375 5150 50  0000 C CNN
-F 1 "2" H 8675 5150 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8575 5100 50  0001 C CNN
-F 3 "~" H 8575 5100 50  0001 C CNN
-	1    8575 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8425 5100 7825 5100
-Wire Wire Line
-	8725 5100 8875 5100
-$Comp
-L Jumper:SolderJumper_2_Open JP3
-U 1 1 5EBFEA6A
 P 8575 5300
-F 0 "JP3" H 8375 5350 50  0000 C CNN
-F 1 "4" H 8675 5350 50  0000 C CNN
+F 0 "JP1" H 8375 5350 50  0000 C CNN
+F 1 "1" H 8675 5350 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8575 5300 50  0001 C CNN
 F 3 "~" H 8575 5300 50  0001 C CNN
 	1    8575 5300
@@ -201,11 +171,11 @@ Wire Wire Line
 Wire Wire Line
 	8725 5300 8875 5300
 $Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 5EC02C5A
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5EBFAB1C
 P 8575 5500
-F 0 "JP4" H 8375 5550 50  0000 C CNN
-F 1 "8" H 8675 5550 50  0000 C CNN
+F 0 "JP2" H 8375 5550 50  0000 C CNN
+F 1 "2" H 8675 5550 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8575 5500 50  0001 C CNN
 F 3 "~" H 8575 5500 50  0001 C CNN
 	1    8575 5500
@@ -215,35 +185,65 @@ Wire Wire Line
 	8425 5500 7825 5500
 Wire Wire Line
 	8725 5500 8875 5500
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 5EBFEA6A
+P 8575 5700
+F 0 "JP3" H 8375 5750 50  0000 C CNN
+F 1 "4" H 8675 5750 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8575 5700 50  0001 C CNN
+F 3 "~" H 8575 5700 50  0001 C CNN
+	1    8575 5700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8875 4900 8875 5100
-Connection ~ 8875 5100
+	8425 5700 7825 5700
 Wire Wire Line
-	8875 5100 8875 5300
-Connection ~ 8875 5300
+	8725 5700 8875 5700
+$Comp
+L Jumper:SolderJumper_2_Open JP4
+U 1 1 5EC02C5A
+P 8575 5900
+F 0 "JP4" H 8375 5950 50  0000 C CNN
+F 1 "8" H 8675 5950 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8575 5900 50  0001 C CNN
+F 3 "~" H 8575 5900 50  0001 C CNN
+	1    8575 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8425 5900 7825 5900
+Wire Wire Line
+	8725 5900 8875 5900
 Wire Wire Line
 	8875 5300 8875 5500
 Connection ~ 8875 5500
 Wire Wire Line
-	8875 5500 8875 5650
+	8875 5500 8875 5700
+Connection ~ 8875 5700
+Wire Wire Line
+	8875 5700 8875 5900
+Connection ~ 8875 5900
+Wire Wire Line
+	8875 5900 8875 6050
 $Comp
 L power:GND #PWR0105
 U 1 1 5EC0BB72
-P 8875 5650
-F 0 "#PWR0105" H 8875 5400 50  0001 C CNN
-F 1 "GND" H 8880 5477 50  0000 C CNN
-F 2 "" H 8875 5650 50  0001 C CNN
-F 3 "" H 8875 5650 50  0001 C CNN
-	1    8875 5650
+P 8875 6050
+F 0 "#PWR0105" H 8875 5800 50  0001 C CNN
+F 1 "GND" H 8880 5877 50  0000 C CNN
+F 2 "" H 8875 6050 50  0001 C CNN
+F 3 "" H 8875 6050 50  0001 C CNN
+	1    8875 6050
 	1    0    0    -1  
 $EndComp
-Text Label 7825 4900 0    50   ~ 0
-GIFTNR_1
-Text Label 7825 5100 0    50   ~ 0
-GIFTNR_2
 Text Label 7825 5300 0    50   ~ 0
-GIFTNR_4
+GIFTNR_1
 Text Label 7825 5500 0    50   ~ 0
+GIFTNR_2
+Text Label 7825 5700 0    50   ~ 0
+GIFTNR_4
+Text Label 7825 5900 0    50   ~ 0
 GIFTNR_8
 NoConn ~ 3175 4825
 NoConn ~ 3175 4925
@@ -581,4 +581,20 @@ F 3 "" H 4875 5725 50  0001 C CNN
 	1    4875 5725
 	1    0    0    -1  
 $EndComp
+Text Notes 4600 700  0    118  ~ 24
+Dynamic Xmas Gift Label
+Text Notes 2100 1200 0    79   ~ 16
+Power input & switching
+Text Notes 5200 1200 0    79   ~ 16
+Vibration sensor
+Text Notes 7800 1200 0    79   ~ 16
+LED matrix module
+Text Notes 2100 3200 0    79   ~ 16
+Microcontroller
+Text Notes 5300 4000 0    79   ~ 16
+Programming port
+Text Notes 8000 3800 0    79   ~ 16
+Speaker
+Text Notes 8000 5100 0    79   ~ 16
+Gift number
 $EndSCHEMATC

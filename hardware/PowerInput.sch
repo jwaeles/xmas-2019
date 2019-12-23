@@ -234,4 +234,6 @@ Wire Wire Line
 Connection ~ 3775 2500
 Wire Wire Line
 	3775 2500 3875 2500
+Text Notes 4600 900  0    118  ~ 24
+Power input & switching
 $EndSCHEMATC
